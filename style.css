@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(63, 63, 81);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+    
+
+}
+h1{
+    font-size: 2rem;
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+#user-input{
+    width: 80%;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+#search-btn{
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #299f5d;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    columns: white;
+    font-weight: 700;
+    background: conic-gradient(#299f5d var(--progress-degree,0deg),#283a2e 0deg);
+    flex-direction: column;
+
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px ;
+}
+.submission-stats {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2e2e3e;
+    border-radius: 5px;
+}
+.submission-stats p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
